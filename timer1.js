@@ -4,7 +4,8 @@ let myArgs = process.argv.slice(2) // this gives  me array of elements/ inputs f
 
 for (let i = 0; i < myArgs.length; i++) {
     setTimeout(() => {
-        process.stdout.write('peeb')
+        // process.stdout.write('\x07')
+        process.stdout.write('beep')
 
     }, (i) * 500)
 }
